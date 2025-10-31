@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArenaXStore - Game Top Up</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo">ArenaXStore Topup</a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="#">Promo</a>
+                <a href="#">Bantuan</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section with Background -->
+        <div class="topup-hero">
+            <div class="hero-background">
+                <div class="floating-shapes">
+                    <div class="shape shape-1">💎</div>
+                    <div class="shape shape-2">🎮</div>
+                    <div class="shape shape-3">⭐</div>
+                    <div class="shape shape-4">🎯</div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1>🎮 Top Up Your Gaming Experience</h1>
+                        <p>Instant delivery • Secure payments • 24/7 support</p>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">500K+</div>
+                            <div class="stat-label">Happy Gamers</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">99.9%</div>
+                            <div class="stat-label">Success Rate</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">24/7</div>
+                            <div class="stat-label">Support</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Progress Bar -->
+        <div class="progress-container">
+            <div class="container">
+                <div class="progress-bar">
+                    <div class="progress-step active" data-step="1">
+                        <div class="step-icon">👤</div>
+                        <div class="step-label">User ID</div>
+                    </div>
+                    <div class="progress-step" data-step="2">
+                        <div class="step-icon">💎</div>
+                        <div class="step-label">Package</div>
+                    </div>
+                    <div class="progress-step" data-step="3">
+                        <div class="step-icon">💳</div>
+                        <div class="step-label">Payment</div>
+                    </div>
+                    <div class="progress-step" data-step="4">
+                        <div class="step-icon">✅</div>
+                        <div class="step-label">Complete</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container topup-container">
+            <div class="game-info">
+                <div class="game-header">
+                    <div class="game-image-wrapper">
+                        <img src="https://placehold.co/200x280?text=Game" alt="Game" id="game-image">
+                        <div class="game-glow"></div>
+                    </div>
+                    <div class="game-details">
+                        <h1 id="game-title">Top Up Game</h1>
+                        <div class="game-description">
+                            <p>Choose your perfect package and get instant access to premium gaming content</p>
+                        </div>
+                        <div class="game-badges">
+                            <span class="badge badge-instant">
+                                <span class="badge-icon">⚡</span>
+                                <span class="badge-text">Instant Delivery</span>
+                            </span>
+                            <span class="badge badge-secure">
+                                <span class="badge-icon">🔒</span>
+                                <span class="badge-text">Secure Payment</span>
+                            </span>
+                            <span class="badge badge-support">
+                                <span class="badge-icon">🎧</span>
+                                <span class="badge-text">24/7 Support</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="topup-form">
+                <!-- Step 1: Masukkan User ID -->
+                <div class="topup-section active" data-step="1">
+                    <div class="section-header">
+                        <div class="step-icon">👤</div>
+                        <div class="step-content">
+                            <h2>Masukkan ID Pengguna</h2>
+                            <p>Masukan ID game Anda dengan benar untuk memproses top up</p>
+                        </div>
+                    </div>
+
+                    <div class="user-id-section">
+                        <div class="input-container">
+                            <div class="input-wrapper">
+                                <label for="user-id" class="input-label">
+                                    <span class="label-icon">🎮</span>
+                                    User ID Game
+                                </label>
+                                <input type="text" id="user-id" placeholder="Contoh: 1234567890" class="user-id-input">
+                                <div class="input-decoration"></div>
+                            </div>
+
+                            <div class="input-info">
+                                <div class="info-icon">💡</div>
+                                <div class="info-content">
+                                    <h4>Cara menemukan User ID:</h4>
+                                    <ol>
+                                        <li>Buka aplikasi game Anda</li>
+                                        <li>Klik avatar karakter di pojok kiri atas</li>
+                                        <li>User ID akan terlihat di bawah nama karakter</li>
+                                        <li>Masukkan angka saja tanpa spasi atau simbol</li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="id-examples">
+                            <h4>Contoh User ID:</h4>
+                            <div class="example-tags">
+                                <span class="example-tag" onclick="fillExampleId('1234567890')">1234567890</span>
+                                <span class="example-tag" onclick="fillExampleId('9876543210')">9876543210</span>
+                                <span class="example-tag" onclick="fillExampleId('5556667778')">5556667778</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="step-navigation">
+                        <button class="next-btn" onclick="nextStep(2)" id="continue-btn">
+                            <span class="btn-text">Lanjutkan ke Pilih Paket</span>
+                            <span class="btn-arrow">→</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Step 2: Pilih Nominal -->
+                <div class="topup-section" data-step="2">
+                    <div class="section-header">
+                        <div class="step-icon">💎</div>
+                        <div class="step-content">
+                            <h2>Pilih Nominal Top Up</h2>
+                            <p>Pilih jumlah diamond yang ingin Anda beli</p>
+                        </div>
+                    </div>
+                    <div class="item-grid-topup">
+                        <div class="item-card-topup" tabindex="0" data-package-id="1">
+                            <div class="item-highlight">POPULAR</div>
+                            <span class="item-name">100 Diamonds</span>
+                            <span class="item-price">RM 4.00</span>
+                            <div class="item-bonus">+5 Bonus</div>
+                        </div>
+                        <div class="item-card-topup" tabindex="0" data-package-id="2">
+                            <span class="item-name">250 Diamonds</span>
+                            <span class="item-price">RM 10.00</span>
+                            <div class="item-bonus">+15 Bonus</div>
+                        </div>
+                        <div class="item-card-topup" tabindex="0" data-package-id="3">
+                            <span class="item-name">500 Diamonds</span>
+                            <span class="item-price">RM 20.00</span>
+                            <div class="item-bonus">+30 Bonus</div>
+                        </div>
+                        <div class="item-card-topup" tabindex="0" data-package-id="4">
+                            <span class="item-name">1000 Diamonds</span>
+                            <span class="item-price">RM 40.00</span>
+                            <div class="item-bonus">+60 Bonus</div>
+                        </div>
+                        <div class="item-card-topup" tabindex="0" data-package-id="5">
+                            <span class="item-name">2500 Diamonds</span>
+                            <span class="item-price">RM 100.00</span>
+                            <div class="item-bonus">+150 Bonus</div>
+                        </div>
+                        <div class="item-card-topup" tabindex="0" data-package-id="6">
+                            <div class="item-highlight">BEST VALUE</div>
+                            <span class="item-name">5000 Diamonds</span>
+                            <span class="item-price">RM 200.00</span>
+                            <div class="item-bonus">+300 Bonus</div>
+                        </div>
+                    </div>
+                    <div class="step-navigation">
+                        <button class="prev-btn" onclick="prevStep(1)">Kembali</button>
+                        <button class="next-btn" onclick="nextStep(3)">Lanjutkan ke Pembayaran</button>
+                    </div>
+                </div>
+
+                <!-- Step 3: Pilih Pembayaran -->
+                <div class="topup-section" data-step="3">
+                    <div class="section-header">
+                        <div class="step-icon">💳</div>
+                        <div class="step-content">
+                            <h2>Pilih Metode Pembayaran</h2>
+                            <p>Pilih metode pembayaran yang Anda inginkan</p>
+                        </div>
+                    </div>
+                    <div class="payment-grid">
+                        <div class="payment-card" tabindex="0">
+                            <img src="https://placehold.co/100x40?text=Digi" alt="Digi">
+                            <span class="payment-name">Digi</span>
+                        </div>
+                        <div class="payment-card" tabindex="0">
+                            <img src="https://placehold.co/100x40?text=TNG" alt="TNG">
+                            <span class="payment-name">Touch 'n Go</span>
+                        </div>
+                        <div class="payment-card" tabindex="0">
+                            <img src="https://placehold.co/100x40?text=ShopeePay" alt="ShopeePay">
+                            <span class="payment-name">ShopeePay</span>
+                        </div>
+                        <div class="payment-card" tabindex="0">
+                            <img src="https://placehold.co/100x40?text=Boost" alt="Boost">
+                            <span class="payment-name">Boost</span>
+                        </div>
+                        <div class="payment-card" tabindex="0">
+                            <img src="https://placehold.co/100x40?text=OnlineBanking" alt="Online Banking">
+                            <span class="payment-name">Online Banking</span>
+                        </div>
+                        <div class="payment-card" tabindex="0">
+                            <img src="https://placehold.co/100x40?text=CreditCard" alt="Credit Card">
+                            <span class="payment-name">Credit Card</span>
+                        </div>
+                    </div>
+                    <div class="step-navigation">
+                        <button class="prev-btn" onclick="prevStep(2)">Kembali</button>
+                        <button class="buy-button" onclick="handlePurchase()">Beli Sekarang</button>
+                    </div>
+                </div>
+
+                <!-- Step 4: Success -->
+                <div class="topup-section success-section" data-step="4">
+                    <div class="success-content">
+                        <div class="success-icon">✅</div>
+                        <h2>Pembelian Berhasil!</h2>
+                        <p>Diamond Anda akan masuk dalam 1-5 menit</p>
+                        <div class="order-details">
+                            <div class="detail-row">
+                                <span>Order ID:</span>
+                                <span id="order-id">#123456789</span>
+                            </div>
+                            <div class="detail-row">
+                                <span>Game:</span>
+                                <span id="success-game">Free Fire</span>
+                            </div>
+                            <div class="detail-row">
+                                <span>Package:</span>
+                                <span id="success-package">100 Diamonds</span>
+                            </div>
+                            <div class="detail-row">
+                                <span>Total:</span>
+                                <span id="success-total">RM 4.00</span>
+                            </div>
+                        </div>
+                        <div class="success-actions">
+                            <button class="btn btn-secondary" onclick="resetForm()">Top Up Lagi</button>
+                            <button class="btn btn-primary" onclick="goHome()">Kembali ke Home</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 ArenaXStore. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="topup.js"></script>
+</body>
+</html>

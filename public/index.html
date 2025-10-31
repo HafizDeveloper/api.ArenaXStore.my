@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArenaXStore Topup - V2.0</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="#" class="logo">ArenaXStore Topup</a>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#" id="redeem-voucher-btn">Redeem Voucher</a>
+                <a href="#">Bantuan</a>
+                <a href="#" class="btn btn-secondary" id="login-btn">Login</a>
+                <a href="#" class="btn btn-primary" id="signup-btn">Sign Up</a>
+                <button class="sidebar-toggle" id="sidebar-toggle">☰</button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Pusat Top Up Game Terpercaya</h1>
+                <p>Pilih game favoritmu dan nikmati kemudahan top up dengan teknologi terdepan.</p>
+                <div class="hero-features">
+                    <div class="hero-feature">
+                        <span class="hero-icon">⚡</span>
+                        <span>Instant Processing</span>
+                    </div>
+                    <div class="hero-feature">
+                        <span class="hero-icon">🔒</span>
+                        <span>100% Secure</span>
+                    </div>
+                    <div class="hero-feature">
+                        <span class="hero-icon">💎</span>
+                        <span>Best Prices</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Stats Section -->
+        <section class="stats-section">
+            <div class="container">
+                <h2>Trusted by Gamers Worldwide</h2>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-number">9+</div>
+                        <div class="stat-label">Games Supported</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">50K+</div>
+                        <div class="stat-label">Happy Customers</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">24/7</div>
+                        <div class="stat-label">Customer Support</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">99.9%</div>
+                        <div class="stat-label">Success Rate</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features-section">
+            <div class="container">
+                <h2>Kenapa Memilih ArenaXStore?</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">⚡</div>
+                        <h3>Instant Top Up</h3>
+                        <p>Top up langsung masuk ke akun game Anda dalam hitungan detik</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🔒</div>
+                        <h3>100% Aman</h3>
+                        <p>Transaksi aman dengan sistem keamanan terdepan</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">💰</div>
+                        <h3>Harga Terbaik</h3>
+                        <p>Dapatkan harga termurah dengan promo menarik</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🌐</div>
+                        <h3>Multi Platform</h3>
+                        <p>Mendukung berbagai platform dan metode pembayaran</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🎮</div>
+                        <h3>9+ Games</h3>
+                        <p>Beragam game populer tersedia untuk top up</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📞</div>
+                        <h3>24/7 Support</h3>
+                        <p>Dukungan pelanggan siap membantu kapan saja</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="game-selection">
+            <div class="container">
+                <h2>Choose Your Game</h2>
+                <p class="section-subtitle">Select from our wide range of popular games</p>
+                <div class="game-grid">
+                    <a href="#" class="game-card" id="free-fire-card">
+                        <img src="https://placehold.co/200x280?text=Free+Fire" alt="Free Fire">
+                        <h3>Free Fire</h3>
+                    </a>
+                    <a href="topup.html?game=mobile-legends" class="game-card">
+                        <img src="https://placehold.co/200x280?text=Mobile+Legends" alt="Mobile Legends">
+                        <h3>Mobile Legends</h3>
+                    </a>
+                    <a href="topup.html?game=pubg-mobile" class="game-card">
+                        <img src="https://placehold.co/200x280?text=PUBG+Mobile" alt="PUBG Mobile">
+                        <h3>PUBG Mobile</h3>
+                    </a>
+                    <a href="#" class="game-card" id="valorant-card">
+                        <img src="https://placehold.co/200x280?text=Valorant" alt="Valorant">
+                        <h3>Valorant</h3>
+                    </a>
+                    <a href="#" class="game-card" id="genshin-impact-card">
+                        <img src="https://placehold.co/200x280?text=Genshin+Impact" alt="Genshin Impact">
+                        <h3>Genshin Impact</h3>
+                    </a>
+                    <a href="#" class="game-card" id="codm-card">
+                        <img src="https://placehold.co/200x280?text=CODM" alt="Call of Duty Mobile">
+                        <h3>Call of Duty: Mobile</h3>
+                    </a>
+                    <a href="#" class="game-card" id="apex-legends-card">
+                        <img src="https://placehold.co/200x280?text=Apex+Legends" alt="Apex Legends">
+                        <h3>Apex Legends</h3>
+                    </a>
+                    <a href="#" class="game-card" id="roblox-card">
+                        <img src="https://placehold.co/200x280?text=Roblox" alt="Roblox">
+                        <h3>Roblox</h3>
+                    </a>
+                    <a href="#" class="game-card" id="league-of-legends-card">
+                        <img src="https://placehold.co/200x280?text=LoL" alt="League of Legends">
+                        <h3>League of Legends</h3>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials-section">
+            <div class="container">
+                <h2>What Our Customers Say</h2>
+                <p class="section-subtitle">Real experiences from satisfied gamers</p>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p>"ArenaXStore sangat cepat dan aman! Top up Free Fire saya langsung masuk dalam 1 menit. Recommended!"</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">⭐</div>
+                            <div class="author-info">
+                                <div class="author-name">Ahmad Rahman</div>
+                                <div class="author-game">Free Fire Player</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p>"Harga termurah dan customer service sangat membantu. Sudah 3 bulan pakai ArenaXStore untuk ML."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">⭐</div>
+                            <div class="author-info">
+                                <div class="author-name">Siti Nurhaliza</div>
+                                <div class="author-game">Mobile Legends Player</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p>"24/7 support sangat membantu saat ada masalah. Trustworthy banget untuk top up game!"</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">⭐</div>
+                            <div class="author-info">
+                                <div class="author-name">Budi Santoso</div>
+                                <div class="author-game">PUBG Mobile Player</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq-section">
+            <div class="container">
+                <h2>Frequently Asked Questions</h2>
+                <p class="section-subtitle">Everything you need to know about our services</p>
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <h3>Berapa lama top up akan masuk?</h3>
+                        <p>Top up akan masuk secara instan dalam 1-5 menit setelah pembayaran berhasil.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Apakah aman menggunakan ArenaXStore?</h3>
+                        <p>Ya, sangat aman. Kami menggunakan sistem keamanan terdepan dan tidak pernah membagikan data pribadi Anda.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Metode pembayaran apa saja yang tersedia?</h3>
+                        <p>Kami menerima berbagai metode: GoPay, ShopeePay, Dana, OVO, bank transfer, dan e-wallet lainnya.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Bagaimana jika top up tidak masuk?</h3>
+                        <p>Hubungi customer support kami 24/7 melalui WhatsApp atau email. Kami akan segera proses refund.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Apakah ada biaya admin?</h3>
+                        <p>Tidak ada biaya admin tambahan. Anda hanya bayar sesuai harga yang tertera.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Bisa top up untuk game internasional?</h3>
+                        <p>Ya, kami mendukung berbagai server internasional untuk game seperti Free Fire, Mobile Legends, dan PUBG Mobile.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section">
+            <div class="container">
+                <h2>Need Help?</h2>
+                <p class="section-subtitle">Our support team is here to assist you 24/7</p>
+                <div class="contact-grid">
+                    <div class="contact-card">
+                        <div class="contact-icon">💬</div>
+                        <h3>Live Chat</h3>
+                        <p>Chat langsung dengan customer support kami</p>
+                        <a href="#" class="contact-btn">Mulai Chat</a>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">📱</div>
+                        <h3>WhatsApp</h3>
+                        <p>Hubungi kami via WhatsApp 24/7</p>
+                        <a href="https://wa.me/60123456789" class="contact-btn">WhatsApp Kami</a>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">📧</div>
+                        <h3>Email</h3>
+                        <p>Kirim email untuk pertanyaan detail</p>
+                        <a href="mailto:support@arenaxstore.com" class="contact-btn">Kirim Email</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- Sidebar -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-content">
+                <button class="sidebar-close" id="sidebar-close">&times;</button>
+                <h3>Menu</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#" id="sidebar-redeem">Redeem Voucher</a></li>
+                    <li><a href="#">Bantuan</a></li>
+                    <li><a href="#" id="sidebar-login">Login</a></li>
+                    <li><a href="#" id="sidebar-signup">Sign Up</a></li>
+                </ul>
+            </div>
+        </aside>
+
+        <!-- Promo Modal -->
+        <div id="promo-modal" class="modal-overlay" style="display: none;">
+            <div class="modal-content">
+                <button class="modal-close" id="promo-modal-close-btn">&times;</button>
+                <h3>Redeem Kode Promo</h3>
+                <div class="promo-form">
+                    <input type="text" id="promo-code" placeholder="Masukkan kode promo Anda" maxlength="20">
+                    <button class="btn btn-primary" id="redeem-btn">Redeem</button>
+                </div>
+                <p class="promo-info">Dapatkan diskon dan bonus menarik dengan kode promo!</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal for Region Selection -->
+    <div id="region-modal" class="modal-overlay" style="display: none;">
+        <div class="modal-content">
+            <button class="modal-close" id="modal-close-btn">&times;</button>
+            <h3>Pilih Wilayah Free Fire</h3>
+            <div class="region-list">
+                <a href="topup.html?game=free-fire-id" class="region-option">Free Fire (Indonesia)</a>
+                <a href="topup.html?game=free-fire-my" class="region-option">Free Fire (Malaysia)</a>
+                <a href="topup.html?game=free-fire-gl" class="region-option">Free Fire (Global)</a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Modal for Valorant Region Selection -->
+    <div id="valorant-modal" class="modal-overlay" style="display: none;">
+        <div class="modal-content">
+            <button class="modal-close" id="valorant-modal-close-btn">&times;</button>
+            <h3>Pilih Server Valorant</h3>
+            <div class="region-list">
+                <a href="topup.html?game=valorant-na" class="region-option">Valorant (North America)</a>
+                <a href="topup.html?game=valorant-eu" class="region-option">Valorant (Europe)</a>
+                <a href="topup.html?game=valorant-asia" class="region-option">Valorant (Asia)</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Genshin Impact Region Selection -->
+    <div id="genshin-modal" class="modal-overlay" style="display: none;">
+        <div class="modal-content">
+            <button class="modal-close" id="genshin-modal-close-btn">&times;</button>
+            <h3>Pilih Server Genshin Impact</h3>
+            <div class="region-list">
+                <a href="topup.html?game=genshin-impact-asia" class="region-option">Genshin Impact (Asia)</a>
+                <a href="topup.html?game=genshin-impact-na" class="region-option">Genshin Impact (North America)</a>
+                <a href="topup.html?game=genshin-impact-eu" class="region-option">Genshin Impact (Europe)</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for CODM Region Selection -->
+    <div id="codm-modal" class="modal-overlay" style="display: none;">
+        <div class="modal-content">
+            <button class="modal-close" id="codm-modal-close-btn">&times;</button>
+            <h3>Pilih Server Call of Duty Mobile</h3>
+            <div class="region-list">
+                <a href="topup.html?game=codm-global" class="region-option">COD Mobile (Global)</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Apex Legends Region Selection -->
+    <div id="apex-modal" class="modal-overlay" style="display: none;">
+        <div class="modal-content">
+            <button class="modal-close" id="apex-modal-close-btn">&times;</button>
+            <h3>Pilih Server Apex Legends</h3>
+            <div class="region-list">
+                <a href="topup.html?game=apex-legends-na" class="region-option">Apex Legends (North America)</a>
+                <a href="topup.html?game=apex-legends-eu" class="region-option">Apex Legends (Europe)</a>
+                <a href="topup.html?game=apex-legends-asia" class="region-option">Apex Legends (Asia)</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Roblox Region Selection -->
+    <div id="roblox-modal" class="modal-overlay" style="display: none;">
+        <div class="modal-content">
+            <button class="modal-close" id="roblox-modal-close-btn">&times;</button>
+            <h3>Pilih Server Roblox</h3>
+            <div class="region-list">
+                <a href="topup.html?game=roblox-global" class="region-option">Roblox (Global)</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for League of Legends Region Selection -->
+    <div id="lol-modal" class="modal-overlay" style="display: none;">
+        <div class="modal-content">
+            <button class="modal-close" id="lol-modal-close-btn">&times;</button>
+            <h3>Pilih Server League of Legends</h3>
+            <div class="region-list">
+                <a href="topup.html?game=lol-na" class="region-option">LoL (North America)</a>
+                <a href="topup.html?game=lol-eu" class="region-option">LoL (Europe)</a>
+                <a href="topup.html?game=lol-asia" class="region-option">LoL (Asia)</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 ArenaXStore. All Rights Reserved.</p>
+            <p>Update Version V2.0 - Enhanced UI/UX</p>
+            <p>By ArenaXStore All rights reserved.</p>
+            <p>DISCLAIMER: Registered names and trademarks are the copyright and property of their respective owners. Use of this website constitutes acceptance of the Terms of Use and Privacy Policy.</p>
+        </div>
+    </footer>
+
+    <!-- Customer Service Chat Widget -->
+    <div id="chat-widget" class="chat-widget">
+        <button id="chat-toggle" class="chat-toggle">
+            <span class="chat-icon">💬</span>
+        </button>
+        <div id="chat-container" class="chat-container" style="display: none;">
+            <div class="chat-header">
+                <h4>Customer Support</h4>
+                <button id="chat-close" class="chat-close">&times;</button>
+            </div>
+            <div id="chat-messages" class="chat-messages">
+                <div class="message bot-message">
+                    <p>Hai! Saya AI Assistant ArenaXStore. Ada yang bisa saya bantu hari ini?</p>
+                    <div class="message-options">
+                        <button class="option-btn" data-option="topup-issue">Masalah Top Up</button>
+                        <button class="option-btn" data-option="payment-issue">Masalah Pembayaran</button>
+                        <button class="option-btn" data-option="account-issue">Masalah Akun</button>
+                        <button class="option-btn" data-option="other">Lainnya</button>
+                    </div>
+                </div>
+            </div>
+            <div class="chat-input" style="display: none;">
+                <input type="text" id="chat-input-field" placeholder="Ketik pesan Anda...">
+                <button id="chat-send">Kirim</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
